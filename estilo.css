@@ -1,0 +1,198 @@
+body { 
+    margin: 0; 
+    padding: 0; 
+    font-family: 'Montserrat', sans-serif; 
+    background-color: #5A5B66; 
+}
+
+/* Estilizando a barra de navegação */ 
+.navegacao { 
+    background-color: #2C2D3B; 
+    padding: 1% 0; 
+    font-size: 16px; 
+} 
+
+.menu-itens { 
+    display: flex; 
+    justify-content: center; 
+    padding: 0; 
+} 
+
+.menu-itens li { 
+    list-style-type: none; 
+    margin: 0 15px; 
+} 
+
+.menu-itens a { 
+    text-decoration: none; 
+    color: #FFFFFF; 
+    font-weight: 600; 
+} 
+
+.menu-itens li:hover { 
+    transform: scale(1.2); 
+    transition: transform 0.1s ease-in-out; 
+} 
+
+/* Estilizando o rodapé */ 
+.informacao-rodape { 
+    display: flex; 
+    justify-content: center; 
+    position: fixed; 
+    bottom: 0; 
+    width: 100%; 
+    font-size: 12px; 
+    height: 5vh; 
+    background-color: #676A91; 
+    color: #FFFFFF; 
+    align-items: center;
+}
+
+/* Estilizando a página inicial */ 
+.intro { 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    padding: 5% 0; 
+} 
+
+.perfil { 
+    max-width: 250px; 
+    margin-right: 2%; 
+} 
+
+.imagem-perfil { 
+    width: 100%; 
+    border-radius: 30px; 
+} 
+
+.descricao-inicial { 
+    max-width: 430px; 
+    color: #000000; 
+    font-weight: 600; 
+} 
+
+.descricao-inicial h1 { 
+    font-size: 24px; 
+    font-weight: 800; 
+} 
+
+.descricao-inicial h2 { 
+    font-size: 18px; 
+    font-weight: 400; 
+} 
+
+/* Estilizando a página de portfólio */ 
+.projetos { 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    padding: 5% 0; 
+} 
+
+.imagem-xp { 
+    max-width: 250px; 
+    margin-right: 2%; 
+} 
+
+.lampada-img { 
+    width: 100%; 
+    border-radius: 300px; 
+} 
+
+.descricao-xp { 
+    max-width: 430px; 
+    color: #000000; 
+    font-weight: 600; 
+} 
+
+/* Estilizando a página sobre mim */ 
+.perfil-pessoal { 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    padding: 5% 0; 
+} 
+
+.foto-pessoal { 
+    max-width: 250px; 
+    margin-right: 2%; 
+} 
+
+.imagem-pessoal { 
+    width: 100%; 
+    border-radius: 30px; 
+} 
+
+.descricao-pessoal { 
+    max-width: 600px; 
+    color: #000000; 
+    font-weight: 600; 
+} 
+
+.descricao-pessoal h1 { 
+    font-size: 24px; 
+    font-weight: 800; 
+} 
+
+.descricao-pessoal p { 
+    font-size: 16px; 
+    font-weight: 400; 
+} 
+
+/* Estilizando a página de contato */ 
+.formulario-contato { 
+    max-width: 650px; 
+    margin: 50px auto; 
+    padding: 20px; 
+    border-radius: 2%; 
+    background-color: #f4f4f4; 
+} 
+
+.formulario-contato label { 
+    display: block; 
+    margin-bottom: 10px; 
+    font-weight: 600; 
+} 
+
+.formulario-contato input, 
+.formulario-contato textarea { 
+    width: 100%; 
+    padding: 10px; 
+    margin-bottom: 20px; 
+    border: 1px solid #9a9797; 
+    border-radius: 4px; 
+    font-size: 16px; 
+} 
+
+.formulario-contato textarea { 
+    height: 120px; 
+    resize: none; 
+} 
+
+.formulario-contato button { 
+    background-color: #333; 
+    color: #FFFFFF; 
+    padding: 10px 20px; 
+    border: none; 
+    cursor: pointer; 
+    font-size: 16px; 
+    border-radius: 4px; 
+} 
+
+.formulario-contato button:hover { 
+    background-color: #555; 
+} 
+
+/* Estilizando redes sociais */ 
+.social-media { 
+    display: flex; 
+    justify-content: center; 
+    padding: 20px 0; 
+} 
+
+.instagram-icone { 
+    width: 90px; 
+    border-radius: 35%; 
+    margin-top: -25px;
+} 
